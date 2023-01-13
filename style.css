@@ -13,9 +13,29 @@ main {
 
 }
 
+/* this section is from james to see where everything is positioned */
+
+main {
+    height: 100vh;
+    display: flex;
+}
+
+main section {
+    flex: 1;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.section-one {
+    border: 5px solid white;
+}
+
+.section-two {
+    border: 5px solid green;
+}
 
 
-
+/*  */
 .circle-1 {
     position: absolute;
     top: 50%;
